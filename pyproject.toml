@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "configuration-managment-mirea"
+version = "0.1.0"
+description = ""
+authors = ["skq <nenado1790@gmail.com>"]
+readme = "README.md"
+packages = [{include = "configuration_managment_mirea"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
